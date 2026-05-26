@@ -1,0 +1,11 @@
+These are the compilation commands for vcVarsall.bat
+
+c++ version:
+cmd /c ' "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64 && cl main.cpp /Fe:main.exe '
+
+c version:
+cmd /c ' "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\Build\vcvarsall.bat" x64 && cl mainC.c /Fe:mainC.exe '
+
+running:
+.\main.exe
+.\mainC.exe
